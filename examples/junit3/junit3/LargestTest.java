@@ -1,5 +1,6 @@
-package demo;
+package junit3;
 
+import examples.Largest;
 import junit.framework.TestCase;
 
 public class LargestTest extends TestCase {
@@ -9,8 +10,8 @@ public class LargestTest extends TestCase {
       Largest.largest(test);
       fail("We didn't get a IAE");
     }
-    catch(IllegalArgumentException iae){
-      System.out.println("Everything's OK");  
+    catch(NullPointerException e) {
+      //ok
     }
   }
 
@@ -20,15 +21,18 @@ public class LargestTest extends TestCase {
       Largest.largest(actual);
       fail("We didnt' get a RTE");
     }
-    catch(RuntimeException re){
-      System.out.println("OK");  
+    catch(RuntimeException re) {
+      //ok
     }
   }
 
-  public void testGoodArray(){
-    int[] actual = {1,2,3};
-    assertEquals("There are only 3 channels on public TV", 3, Largest.largest(actual));    
+  public void testFirstIsLargest(){
+    int[] actual = {3,2,1};
+    assertEquals(3, Largest.largest(actual));
   }
 
-
+  public void testLastIsLargest() {
+    int[] actual = {1,2,3};
+    assertEquals(3, Largest.largest(actual));
+  }
 }
