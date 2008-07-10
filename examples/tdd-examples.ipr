@@ -268,12 +268,13 @@
     </option>
   </component>
   <component name="libraryTable">
-    <library name="JUnit">
+    <library name="lib">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/lib/junit-4.4.jar!/" />
+        <root url="file:///Users/stuart/relevance/javatdd/lib" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
+      <jarDirectory url="file:///Users/stuart/relevance/javatdd/lib" recursive="false" />
     </library>
   </component>
 </project>

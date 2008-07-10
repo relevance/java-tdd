@@ -139,17 +139,75 @@
       <file leaf-file-name="Largest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/examples/Largest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="33" selection-start="209" selection-end="209" vertical-scroll-proportion="0.10583942">
+            <state line="8" column="33" selection-start="209" selection-end="209" vertical-scroll-proportion="0.14572865">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LargestTest.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="LargestTest.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/groovy/groovy/LargestTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="55" selection-start="490" selection-end="490" vertical-scroll-proportion="0.72262776">
+            <state line="21" column="55" selection-start="490" selection-end="490" vertical-scroll-proportion="0.99497485">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rocket.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/examples/space/Rocket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="17" selection-start="42" selection-end="42" vertical-scroll-proportion="0.09547739">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarefulRocket.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/examples/space/CarefulRocket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="40" selection-start="123" selection-end="123" vertical-scroll-proportion="0.19095477">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IncrementalStation.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/examples/space/IncrementalStation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="20" selection-start="376" selection-end="376" vertical-scroll-proportion="0.620603">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IncrementalStationTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/junit3/junit3/space/IncrementalStationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="31" selection-start="1007" selection-end="1007" vertical-scroll-proportion="1.4798995">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Station.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/examples/space/Station.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="38" selection-end="38" vertical-scroll-proportion="0.09547739">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StationTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/junit3/junit3/space/StationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="13" selection-start="170" selection-end="170" vertical-scroll-proportion="-0.38442212">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -157,7 +215,7 @@
       <file leaf-file-name="LargestTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/junit3/junit3/LargestTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="120" selection-end="731" vertical-scroll-proportion="1.2481751">
+            <state line="37" column="0" selection-start="120" selection-end="731" vertical-scroll-proportion="1.718593">
               <folding />
             </state>
           </provider>
@@ -166,7 +224,7 @@
       <file leaf-file-name="LargestTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/junit4/junit4/LargestTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="14" selection-start="79" selection-end="79" vertical-scroll-proportion="0.13868614">
+            <state line="4" column="14" selection-start="79" selection-end="79" vertical-scroll-proportion="0.19095477">
               <folding />
             </state>
           </provider>
@@ -303,6 +361,32 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/src/examples" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/src/examples/space" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="tdd-examples" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="tdd-examples" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
           <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/junit4" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
@@ -330,6 +414,32 @@
         </PATH_ELEMENT>
         <PATH_ELEMENT>
           <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/junit3/junit3" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="tdd-examples" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="tdd-examples" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/junit3" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/junit3/junit3" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/junit3/junit3/space" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -390,16 +500,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LargestTest">
-    <tempConfiguration default="false" name="LargestTest" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
-      <pattern value="groovy.*" />
+  <component name="RunManager" selected="JUnit.IncrementalStationTest.testRefuelInManySteps">
+    <tempConfiguration default="false" name="IncrementalStationTest.testRefuelInManySteps" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
+      <pattern value="junit3.space.*" />
       <module name="tdd-examples" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="groovy" />
-      <option name="MAIN_CLASS_NAME" value="groovy.LargestTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="junit3.space" />
+      <option name="MAIN_CLASS_NAME" value="junit3.space.IncrementalStationTest" />
+      <option name="METHOD_NAME" value="testRefuelInManySteps" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -500,7 +610,7 @@
       </method>
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.LargestTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.IncrementalStationTest.testRefuelInManySteps" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -574,13 +684,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="995" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="845" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="7" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24892704" order="0" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29187635" order="0" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="1" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" order="8" />
@@ -591,7 +701,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
       <window_info id="Maven projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="-1" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32852387" order="2" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39414114" order="2" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="2" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="0" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="4" />
@@ -684,29 +794,82 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/junit4/junit4/LargestTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="14" selection-start="79" selection-end="79" vertical-scroll-proportion="0.13868614">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/examples/Largest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="33" selection-start="209" selection-end="209" vertical-scroll-proportion="0.10583942">
+        <state line="4" column="14" selection-start="79" selection-end="79" vertical-scroll-proportion="0.19095477">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/junit3/junit3/LargestTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="120" selection-end="731" vertical-scroll-proportion="1.2481751">
+        <state line="37" column="0" selection-start="120" selection-end="731" vertical-scroll-proportion="1.718593">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Users/stuart/relevance/javatdd/lib/easymock.jar!/org/easymock/EasyMock.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="35" selection-start="135" selection-end="135" vertical-scroll-proportion="0.09921671">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/examples/Largest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="33" selection-start="209" selection-end="209" vertical-scroll-proportion="0.14572865">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/groovy/groovy/LargestTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="55" selection-start="490" selection-end="490" vertical-scroll-proportion="0.72262776">
+        <state line="21" column="55" selection-start="490" selection-end="490" vertical-scroll-proportion="0.99497485">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/examples/space/Rocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="42" selection-end="42" vertical-scroll-proportion="0.09547739">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/examples/space/Station.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="38" selection-end="38" vertical-scroll-proportion="0.09547739">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/examples/space/CarefulRocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="40" selection-start="123" selection-end="123" vertical-scroll-proportion="0.19095477">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/examples/space/IncrementalStation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="20" selection-start="376" selection-end="376" vertical-scroll-proportion="0.620603">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junit3/junit3/space/StationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="170" selection-end="170" vertical-scroll-proportion="-0.38442212">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junit3/junit3/space/IncrementalStationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="31" selection-start="1007" selection-end="1007" vertical-scroll-proportion="1.4798995">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

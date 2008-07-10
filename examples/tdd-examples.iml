@@ -16,7 +16,7 @@
     <orderEntry type="library" name="groovy-1.5.6" level="application" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="JUnit" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
     <orderEntryProperties />
   </component>
 </module>
