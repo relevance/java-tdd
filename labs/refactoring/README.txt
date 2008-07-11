@@ -1,5 +1,10 @@
 Lab #2 - Refactoring
 
+You have inheritedless-than-great Pizza and Order code, without tests. Before you 
+use any method, write tests to demonstrate that you understand how the method works.
+
+Perform these refactorings:
+
 1. Extract topping into a Topping class.
 
 2. Create a StandardToppings class.
