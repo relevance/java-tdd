@@ -1,3 +1,4 @@
 *.class
 coverage
 build
+examples/test-output
