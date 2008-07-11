@@ -1,31 +1,17 @@
-Lab #1 - JUnit
+Lab #1 - TDD
 
+You may use the unit testing framework of your choice for these exercises.
 
-1. Using the JUnit4 pdf as a guide, write a simple
-Calculator class. It should only add, subtract,
-multiply, and divide. Make sure that you can
-clear it and get the results at any point along the
-way.
+1. Write a set of unit tests for Largest.java
+   (where handful >= 5)
 
-Of course, let the unit tests drive your design.
-
-
-
-
-2. Write a handful of unit tests for Largest
-(where handful >= 5)
-
-
-
-
-3. TDD
+2. TDD: Pizza
 We're setting up a pizza shop. For each sentence (User Story),
 write a test first, watch it fail, and then implement the feature.
 We're trying to simulate a class that evolves over time, so
 sometimes the next User Story will contradict the story you
 just got done implementing. (Until we get better users, this
 will be a business reality for the foreseeable future...)
-
 
 1. We'll need a Pizza class
 2. Pizzas can be "Small", "Medium", or "Large"
@@ -47,6 +33,16 @@ will be a business reality for the foreseeable future...)
 7. Now adjust the price per topping. $1 per topping should
    suffice, unless you have some extra time in the lab and
    want to implement custom pricing per topping. 
+
+3. TDD: Calculator
+Write a set of tests for, and implement, a Calculator class. 
+It should add, subtract, multiply, and divide. Make sure that you can
+clear it and get the results at any point along the way.
+
+Of course, let the unit tests drive your design.
+
+
+
 
 
 
