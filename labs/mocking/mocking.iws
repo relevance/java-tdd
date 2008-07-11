@@ -16,7 +16,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="" />
-    <ignored path="coverage.iws" />
+    <ignored path="mocking.iws" />
     <ignored path=".idea/workspace.xml" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
@@ -73,12 +73,26 @@
     <option name="HIDE_WARNINGS" value="false" />
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="coverage" />
+    <favorites_list name="mocking" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.txt">
+      <file leaf-file-name="OrderTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/junit4/OrderTest/OrderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="6" selection-start="97" selection-end="97" vertical-scroll-proportion="0.18936877">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/test/reports/coverage/index.html">
+          <provider editor-type-id="HtmlPreview">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -86,71 +100,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/junit4/junit4/cobertura/OrderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="0.32882884">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Order.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cobertura/Order.java">
+        <entry file="file://$PROJECT_DIR$/src/mocking/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="166" selection-end="166" vertical-scroll-proportion="0.17117117">
+            <state line="51" column="0" selection-start="193" selection-end="1295" vertical-scroll-proportion="0.9368771">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pizza.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cobertura/Pizza.java">
+      <file leaf-file-name="OrderItem.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/mocking/OrderItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="99" selection-end="99" vertical-scroll-proportion="0.17117117">
+            <state line="5" column="0" selection-start="47" selection-end="95" vertical-scroll-proportion="0.1578073">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Topping.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cobertura/Topping.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="204" selection-end="204" vertical-scroll-proportion="0.35431236">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="53" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.28947368">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PizzaTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/junit4/junit4/cobertura/PizzaTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="0" selection-start="916" selection-end="916" vertical-scroll-proportion="1.2702702">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ToppingTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/junit4/junit4/cobertura/ToppingTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.25675675">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -188,98 +151,190 @@
     <subPane>
       <PATH>
         <PATH_ELEMENT>
-          <option name="myItemId" value="coverage" />
+          <option name="myItemId" value="mocking" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="Coverage" />
+          <option name="myItemId" value="Mocking" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Libraries" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.LibraryGroupNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lib" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
-          <option name="myItemId" value="coverage" />
+          <option name="myItemId" value="mocking" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="Coverage" />
+          <option name="myItemId" value="Mocking" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="Libraries" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.LibraryGroupNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="coverage" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Coverage" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/cobertura" />
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/mocking" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
-          <option name="myItemId" value="coverage" />
+          <option name="myItemId" value="mocking" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="Coverage" />
+          <option name="myItemId" value="Mocking" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/cobertura" />
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/mocking" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/cobertura/src" />
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/mocking/src" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/cobertura/src/cobertura" />
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/mocking/src/mocking" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
-          <option name="myItemId" value="coverage" />
+          <option name="myItemId" value="mocking" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="Coverage" />
+          <option name="myItemId" value="Mocking" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/cobertura" />
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/mocking" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/cobertura/junit4" />
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/mocking/junit4" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/cobertura/junit4/junit4/cobertura" />
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/mocking/junit4/OrderTest" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="mocking" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Mocking" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/mocking" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/mocking/junit4" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="mocking" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Mocking" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/mocking" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/mocking/build" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/mocking/build/test" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/mocking/build/test/reports" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="mocking" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Mocking" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/mocking" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/mocking/build" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/mocking/build/test" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/mocking/build/test/reports" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/mocking/build/test/reports/coverage" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="mocking" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Mocking" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/mocking" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/mocking/build" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/mocking/build/test" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="mocking" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Mocking" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/mocking" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/labs/mocking/build" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
     </subPane>
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
+    <option name="STATE" value="2" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="0.11111111" version="1" splitterProportion="0.5">
@@ -302,14 +357,8 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="RunManagerConfig.showSettingsBeforeRunnig" value="true" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JUnit.All">
+  <component name="RunManager">
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -328,35 +377,6 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG" enabled="false" merge="false">
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="ADDITIONAL_CLASS_PATH" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method>
-        <option name="Make" value="true" />
-      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application" enabled="false" merge="false">
       <option name="MAIN_CLASS_NAME" />
@@ -389,37 +409,8 @@
         <value defaultName="wholeProject" />
       </option>
       <envs />
-      <method>
-        <option name="Make" value="true" />
-      </method>
     </configuration>
-    <configuration default="false" name="All" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
-      <module name="Coverage" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="ADDITIONAL_CLASS_PATH" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method>
-        <option name="Make" value="true" />
-      </method>
-    </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.All" />
-    </list>
+    <list size="0" />
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -470,24 +461,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1554" height="841" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="746" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="7" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17342193" order="0" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32797858" order="1" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24946082" order="0" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="1" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32931727" order="8" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="6" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23056479" order="1" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
       <window_info id="Maven projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.270415" order="2" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="2" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="2" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="0" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="4" />
@@ -557,75 +548,38 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-    <buildFile url="file://$PROJECT_DIR$/build.xml">
-      <antCommandLine value="" />
-      <runInBackground value="true" />
-      <targetFilters />
-      <treeView value="true" />
-      <verbose value="true" />
-      <viewClosedWhenNoErrors value="false" />
-    </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.txt">
+    <entry file="file://$PROJECT_DIR$/junit4/OrderTest/OrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="6" selection-start="97" selection-end="97" vertical-scroll-proportion="0.18936877">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/test/reports/coverage/index.html">
+      <provider editor-type-id="HtmlPreview">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cobertura/Pizza.java">
+    <entry file="file://$PROJECT_DIR$/src/mocking/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="99" selection-end="99" vertical-scroll-proportion="0.17117117">
+        <state line="51" column="0" selection-start="193" selection-end="1295" vertical-scroll-proportion="0.9368771">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cobertura/Topping.java">
+    <entry file="file://$PROJECT_DIR$/src/mocking/OrderItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="204" selection-end="204" vertical-scroll-proportion="0.35431236">
+        <state line="5" column="0" selection-start="47" selection-end="95" vertical-scroll-proportion="0.1578073">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="53" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.28947368">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cobertura/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="166" selection-end="166" vertical-scroll-proportion="0.17117117">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/junit4/junit4/cobertura/OrderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="0.32882884">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/junit4/junit4/cobertura/ToppingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.25675675">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/junit4/junit4/cobertura/PizzaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="916" selection-end="916" vertical-scroll-proportion="1.2702702">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
