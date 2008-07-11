@@ -41,21 +41,4 @@ public class PizzaTest {
     assertEquals(30, Pizza.large().getCookTime());
   }
 
-  // Not a unit test: depends on both Pizza and Topping?
-  @Test
-  public void testStandardToppingCookTime() {
-    Pizza pizza = Pizza.small();
-    pizza.addTopping("pepperoni");
-    pizza.addTopping("sausage");
-    assertEquals(15, pizza.getCookTime());
-  }
-
-  @Test
-  public void testCustomToppingCookTime() {
-    Pizza pizza = Pizza.small();
-    pizza.addTopping("pepperoni");
-    pizza.addTopping("mushroom");
-    assertEquals(17, pizza.getCookTime());
-  }
-
 }

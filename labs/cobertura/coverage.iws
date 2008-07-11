@@ -89,7 +89,7 @@
       <file leaf-file-name="OrderTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/junit4/junit4/cobertura/OrderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="0.36486486">
+            <state line="9" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="0.32882884">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,19 +124,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="build.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="0" selection-start="3550" selection-end="3550" vertical-scroll-proportion="0.046798028">
+            <state line="37" column="53" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.28947368">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PizzaTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PizzaTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/junit4/junit4/cobertura/PizzaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="122" selection-end="122" vertical-scroll-proportion="0.21396397">
+            <state line="43" column="0" selection-start="916" selection-end="916" vertical-scroll-proportion="1.2702702">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,7 +147,7 @@
       <file leaf-file-name="ToppingTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/junit4/junit4/cobertura/ToppingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="252" selection-end="252" vertical-scroll-proportion="0.5135135">
+            <state line="6" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.25675675">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -574,13 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cobertura/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="166" selection-end="166" vertical-scroll-proportion="0.17117117">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cobertura/Pizza.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="13" selection-start="99" selection-end="99" vertical-scroll-proportion="0.17117117">
@@ -595,18 +588,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/junit4/junit4/cobertura/ToppingTest.java">
+    <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="252" selection-end="252" vertical-scroll-proportion="0.5135135">
+        <state line="37" column="53" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.28947368">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cobertura/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="166" selection-end="166" vertical-scroll-proportion="0.17117117">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junit4/junit4/cobertura/OrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="0.32882884">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/junit4/junit4/cobertura/OrderTest.java">
+    <entry file="file://$PROJECT_DIR$/junit4/junit4/cobertura/ToppingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="0.36486486">
+        <state line="6" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.25675675">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -615,17 +622,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/junit4/junit4/cobertura/PizzaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="122" selection-end="122" vertical-scroll-proportion="0.21396397">
+        <state line="43" column="0" selection-start="916" selection-end="916" vertical-scroll-proportion="1.2702702">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="0" selection-start="3550" selection-end="3550" vertical-scroll-proportion="0.046798028">
-          <folding />
         </state>
       </provider>
     </entry>
