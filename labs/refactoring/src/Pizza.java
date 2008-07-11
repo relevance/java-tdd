@@ -1,5 +1,3 @@
-package lab2.pizza;
-
 import java.util.*;
 
 public class Pizza {
