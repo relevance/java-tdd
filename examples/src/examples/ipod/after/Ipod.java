@@ -1,11 +1,9 @@
 package examples.ipod.after;
 
-import java.util.Map;
-import java.util.LinkedHashMap;
-import java.util.Iterator;
+import java.util.*;
 
 public class Ipod {
-  private Map songs;
+  private List<Song> songs;
 
   public static void main(String[] args) {
     Ipod iPod = new Ipod();
@@ -13,10 +11,10 @@ public class Ipod {
   }
 
   public Ipod() {
-    songs = new LinkedHashMap();
-    songs.put("All you need is love", new Integer(229));
-    songs.put("I am the walrus", new Integer(275));
-    songs.put("Hello, goodbye", new Integer(210));
+    songs = new ArrayList();
+    songs.add(new Song("All you need is love", 229));
+    songs.add(new Song("I am the walrus", 275));
+    songs.add(new Song("Hello, goodbye", 210));
   }
 
   public void play() {
@@ -29,11 +27,11 @@ public class Ipod {
     int timeRemaining = totalDuration;
     String prettyTimeRemaining = (timeRemaining / 60) + ":" + (timeRemaining % 60);
 
-    for (Iterator iterator = songs.keySet().iterator(); iterator.hasNext();) {
-      String song = (String) iterator.next();
-      System.out.println("Now playing: " + song);
+    for (Iterator<Song> it = songs.iterator(); it.hasNext();) {
+      Song song = it.next();
+      System.out.println("Now playing: " + song.getName());
       System.out.println("\tTime remaining:" + prettyTimeRemaining);
-      timeRemaining -= ((Integer) songs.get(song)).intValue();
+      timeRemaining -= song.getDuration();
       prettyTimeRemaining = (timeRemaining / 60) + ":" + (timeRemaining % 60);
     }
 
@@ -42,9 +40,8 @@ public class Ipod {
 
   public int totalDuration() {
     int totalDuration = 0;
-    for (Iterator iterator = songs.values().iterator(); iterator.hasNext();) {
-      Integer duration = (Integer) iterator.next();
-      totalDuration += duration.intValue();
+    for (Iterator<Song> it = songs.iterator(); it.hasNext();) {
+      totalDuration += it.next().getDuration();
     }
     return totalDuration;
   }
