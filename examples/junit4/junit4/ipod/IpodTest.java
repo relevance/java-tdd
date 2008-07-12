@@ -24,4 +24,10 @@ public class IpodTest {
     String expected = FileUtils.readFileToString(new File("fixtures/ipod.out.expected"));
     assertEquals(expected, actual);
   }
+
+  @Test
+  public void testTotalDuration() {
+    Ipod ipod = new Ipod();
+    assertEquals(714, ipod.totalDuration());    
+  }
 }

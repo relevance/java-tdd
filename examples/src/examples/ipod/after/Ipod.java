@@ -5,23 +5,22 @@ import java.util.LinkedHashMap;
 import java.util.Iterator;
 
 public class Ipod {
+  private Map songs;
 
   public static void main(String[] args) {
     Ipod iPod = new Ipod();
     iPod.play();
   }
 
-  public void play() {
-    Map songs = new LinkedHashMap();
+  public Ipod() {
+    songs = new LinkedHashMap();
     songs.put("All you need is love", new Integer(229));
     songs.put("I am the walrus", new Integer(275));
     songs.put("Hello, goodbye", new Integer(210));
+  }
 
-    int totalDuration = 0;
-    for (Iterator iterator = songs.values().iterator(); iterator.hasNext();) {
-      Integer duration = (Integer) iterator.next();
-      totalDuration += duration.intValue();
-    }
+  public void play() {
+    int totalDuration = totalDuration();
 
     String prettyDuration = (totalDuration / 60) + ":" + (totalDuration % 60);
     System.out.println(songs.size() + " songs loaded.");
@@ -34,10 +33,19 @@ public class Ipod {
       String song = (String) iterator.next();
       System.out.println("Now playing: " + song);
       System.out.println("\tTime remaining:" + prettyTimeRemaining);
-      timeRemaining -= ((Integer)songs.get(song)).intValue();
+      timeRemaining -= ((Integer) songs.get(song)).intValue();
       prettyTimeRemaining = (timeRemaining / 60) + ":" + (timeRemaining % 60);
     }
 
     System.out.println("Playlist complete.");
+  }
+
+  public int totalDuration() {
+    int totalDuration = 0;
+    for (Iterator iterator = songs.values().iterator(); iterator.hasNext();) {
+      Integer duration = (Integer) iterator.next();
+      totalDuration += duration.intValue();
+    }
+    return totalDuration;
   }
 }
