@@ -30,4 +30,15 @@ public class IpodTest {
     Ipod ipod = new Ipod();
     assertEquals(714, ipod.totalDuration());    
   }
+
+  @Test
+  public void testPrettyTimeShort() {
+    assertEquals("00:01", Ipod.prettyTime(1));
+  }
+
+
+  @Test
+  public void testPrettyTimeLong() {
+    assertEquals("01:01", Ipod.prettyTime(61));
+  }
 }

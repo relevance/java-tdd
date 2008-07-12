@@ -17,22 +17,21 @@ public class Ipod {
     songs.add(new Song("Hello, goodbye", 210));
   }
 
+  public static String prettyTime(int value) {
+    return String.format("%02d:%02d", (value / 60), (value % 60));
+  }
+  
   public void play() {
-    int totalDuration = totalDuration();
+    int timeRemaining = totalDuration();
 
-    String prettyDuration = (totalDuration / 60) + ":" + (totalDuration % 60);
     System.out.println(songs.size() + " songs loaded.");
-    System.out.println(prettyDuration + " total playing time.");
-
-    int timeRemaining = totalDuration;
-    String prettyTimeRemaining = (timeRemaining / 60) + ":" + (timeRemaining % 60);
+    System.out.println(Ipod.prettyTime(timeRemaining) + " total playing time.");
 
     for (Iterator<Song> it = songs.iterator(); it.hasNext();) {
       Song song = it.next();
       System.out.println("Now playing: " + song.getName());
-      System.out.println("\tTime remaining:" + prettyTimeRemaining);
+      System.out.println("\tTime remaining:" + Ipod.prettyTime(timeRemaining));
       timeRemaining -= song.getDuration();
-      prettyTimeRemaining = (timeRemaining / 60) + ":" + (timeRemaining % 60);
     }
 
     System.out.println("Playlist complete.");
