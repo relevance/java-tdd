@@ -182,10 +182,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="OrderTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/junit4/junit4/mocking/OrderTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="41" column="44" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.17592593">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringUtilsTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/junit4/junit4/learning/StringUtilsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="21" selection-start="433" selection-end="433" vertical-scroll-proportion="0.6076696">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ipod.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/examples/ipod/before/Ipod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="0" selection-start="133" selection-end="1421" vertical-scroll-proportion="2.2870371">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ipod.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/examples/ipod/after/Ipod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="13" selection-start="125" selection-end="125" vertical-scroll-proportion="0.33333334">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -215,39 +246,6 @@
         <entry file="file://$PROJECT_DIR$/src/examples/mocking/Order.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="51" column="0" selection-start="1304" selection-end="1304" vertical-scroll-proportion="2.0462964">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Order.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/examples/refactoring/Order.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="32" selection-start="160" selection-end="719" vertical-scroll-proportion="1.7935103">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/junit4/junit4/refactoring/OrderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="32" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PizzaTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/junit4/junit4/refactoring/PizzaTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="15" selection-start="832" selection-end="832" vertical-scroll-proportion="2.0737462">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -460,6 +458,114 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/src/examples" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/src/examples/ipod" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/src/examples/ipod/before" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="tdd-examples" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="tdd-examples" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/src/examples" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/src/examples/ipod" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/src/examples/ipod/after" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="tdd-examples" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="tdd-examples" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/junit4" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/junit4/junit4" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="tdd-examples" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="tdd-examples" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/junit4" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/junit4/junit4" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/junit4/junit4/learning" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="tdd-examples" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="tdd-examples" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
           <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/fixtures" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
@@ -545,25 +651,18 @@
       <recent name="junit3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OrderTest.testPrintUsingMock">
-    <tempConfiguration default="false" name="OrderTest.testPrintUsingMock" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
-      <pattern value="junit4.mocking.*" />
-      <module name="tdd-examples" />
+  <component name="RunManager" selected="Application.Ipod">
+    <tempConfiguration default="false" name="Ipod" type="Application" factoryName="Application" enabled="false" merge="false">
+      <option name="MAIN_CLASS_NAME" value="examples.ipod.after.Ipod" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="junit4.mocking" />
-      <option name="MAIN_CLASS_NAME" value="junit4.mocking.OrderTest" />
-      <option name="METHOD_NAME" value="testPrintUsingMock" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="ADDITIONAL_CLASS_PATH" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
+      <module name="tdd-examples" />
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -631,6 +730,9 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method>
+        <option name="Make" value="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
       <module name="" />
@@ -680,7 +782,7 @@
     </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.OrderTest.testPrintUsingMock" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Ipod" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -755,7 +857,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="845" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
@@ -771,7 +873,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
       <window_info id="Maven projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47270307" order="2" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47270307" order="2" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="2" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="0" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39946738" order="4" />
@@ -862,31 +964,6 @@
     <option name="myLastEditedConfigurable" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/junit4/junit4/calculator/CalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="718" selection-end="1301" vertical-scroll-proportion="1.6755162">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/junit4/junit4/pizza/step7/PizzaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="27" selection-start="124" selection-end="124" vertical-scroll-proportion="0.22418879">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/examples/pizza/step5/Pizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="252" selection-end="252" vertical-scroll-proportion="0.72861356">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/examples/pizza/step7/Pizza.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="0" selection-start="471" selection-end="471" vertical-scroll-proportion="1.1209439">
@@ -990,6 +1067,31 @@
     <entry file="file://$PROJECT_DIR$/junit4/junit4/mocking/OrderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="44" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.17592593">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junit4/junit4/learning/StringUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="21" selection-start="433" selection-end="433" vertical-scroll-proportion="0.6076696">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/examples/ipod/before/Ipod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="133" selection-end="1421" vertical-scroll-proportion="2.2870371">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/examples/ipod/after/Ipod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="125" selection-end="125" vertical-scroll-proportion="0.33333334">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,4 +1,4 @@
-package demo.refactor;
+package examples.ipod.before;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -7,7 +7,7 @@ import java.util.Iterator;
 public class Ipod {
 
   public static void main(String[] args) {
-    demo.live.refactor.Ipod iPod = new demo.live.refactor.Ipod();
+    Ipod iPod = new Ipod();
     iPod.play();
   }
 
