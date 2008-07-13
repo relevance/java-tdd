@@ -151,47 +151,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Order.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/examples/mocking/Order.java">
+      <file leaf-file-name="IpodTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/junit4/junit4/ipod/IpodTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="194" selection-end="194" vertical-scroll-proportion="0.2345679">
+            <state line="42" column="0" selection-start="1020" selection-end="1117" vertical-scroll-proportion="0.58950615">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroovyOrder.groovy" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/groovy/GroovyOrder.groovy">
+      <file leaf-file-name="IpodTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testng/testng/ipod/IpodTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="78" selection-start="412" selection-end="412" vertical-scroll-proportion="0.82098764">
+            <state line="13" column="13" selection-start="273" selection-end="273" vertical-scroll-proportion="0.7623457">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalculatorTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testng/testng/calculator/CalculatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="13" selection-start="103" selection-end="103" vertical-scroll-proportion="0.22418879">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroovyOrderTest.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/groovy/groovy/mocking/GroovyOrderTest.groovy">
+      <file leaf-file-name="StringUtilsTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/junit4/junit4/learning/StringUtilsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="42" selection-start="950" selection-end="950" vertical-scroll-proportion="0.78466076">
+            <state line="8" column="12" selection-start="0" selection-end="563" vertical-scroll-proportion="0.33628318">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IPhoneTest.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/groovy/groovy/IPhoneTest.groovy">
+      <file leaf-file-name="StringUtilsTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testng/testng/learning/StringUtilsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="0" selection-start="1516" selection-end="1573" vertical-scroll-proportion="0.56047195">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/junit4/junit4/mocking/OrderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="47" selection-start="817" selection-end="817" vertical-scroll-proportion="-0.4691358">
-              <folding />
+            <state line="7" column="71" selection-start="216" selection-end="216" vertical-scroll-proportion="0.39233038">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -306,6 +310,62 @@
         </PATH_ELEMENT>
         <PATH_ELEMENT>
           <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/testng" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/testng/testng" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/testng/testng/learning" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="tdd-examples" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="tdd-examples" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/testng" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/testng/testng" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/testng/testng/ipod" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="tdd-examples" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="tdd-examples" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/testng" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/testng/testng" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -523,120 +583,6 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/junit3" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/junit3/junit3" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="tdd-examples" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="tdd-examples" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/junit3" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/junit3/junit3" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/junit3/junit3/space" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="tdd-examples" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="tdd-examples" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/groovy" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/groovy/groovy" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="tdd-examples" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="tdd-examples" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/groovy" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/groovy/groovy" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/groovy/groovy/mocking" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="tdd-examples" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="tdd-examples" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/fixtures" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="tdd-examples" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="tdd-examples" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
           <option name="myItemId" value="PsiDirectory:/Users/stuart/relevance/javatdd/examples/build" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
@@ -709,26 +655,32 @@
       <recent name="junit4" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GroovyOrderTest.testLoadOrders">
-    <tempConfiguration default="false" name="GroovyOrderTest.testLoadOrders" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
-      <pattern value="groovy.mocking.*" />
+  <component name="RunManager" selected="TestNG.StringUtilsTest">
+    <tempConfiguration default="false" name="StringUtilsTest" type="TestNG" factoryName="TestNG" enabled="false" merge="false">
       <module name="tdd-examples" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="groovy.mocking" />
-      <option name="MAIN_CLASS_NAME" value="groovy.mocking.GroovyOrderTest" />
-      <option name="METHOD_NAME" value="testLoadOrders" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="testng.learning" />
+      <option name="MAIN_CLASS_NAME" value="testng.learning.StringUtilsTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="ADDITIONAL_CLASS_PATH" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="wholeProject" />
       </option>
+      <option name="PROPERTIES_FILE" />
       <envs />
+      <properties />
+      <listeners />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method>
@@ -847,7 +799,7 @@
     </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.GroovyOrderTest.testLoadOrders" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.StringUtilsTest" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -1037,41 +989,6 @@
     <option name="myLastEditedConfigurable" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/examples/iphone/IPhone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="109" selection-start="285" selection-end="285" vertical-scroll-proportion="0.33236152">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/examples/mocking/OrderItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="44" selection-end="44" vertical-scroll-proportion="0.112094395">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/examples/pizza/step2/Pizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="44" selection-end="44" vertical-scroll-proportion="0.112094395">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/examples/pizza/step3/Pizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="44" selection-end="44" vertical-scroll-proportion="0.112094395">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/examples/pizza/step5/Pizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="189" selection-end="189" vertical-scroll-proportion="0.22418879">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/examples/pizza/step7/Pizza.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="13" selection-start="189" selection-end="189" vertical-scroll-proportion="0.22418879">
@@ -1116,36 +1033,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/examples/mocking/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="194" selection-end="194" vertical-scroll-proportion="0.2345679">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/junit4/junit4/mocking/OrderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="47" selection-start="817" selection-end="817" vertical-scroll-proportion="-0.4691358">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/groovy/groovy/IPhoneTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="1516" selection-end="1573" vertical-scroll-proportion="0.56047195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/groovy/groovy/mocking/GroovyOrderTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="42" selection-start="950" selection-end="950" vertical-scroll-proportion="0.78466076">
+        <state line="9" column="13" selection-start="194" selection-end="194" vertical-scroll-proportion="0.110787176">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/groovy/GroovyOrder.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="78" selection-start="412" selection-end="412" vertical-scroll-proportion="0.82098764">
+        <state line="14" column="78" selection-start="412" selection-end="412" vertical-scroll-proportion="0.3877551">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/groovy/groovy/mocking/GroovyOrderTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="42" selection-start="950" selection-end="950" vertical-scroll-proportion="0.75606275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junit4/junit4/mocking/OrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="47" selection-start="817" selection-end="817" vertical-scroll-proportion="-0.22157435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/groovy/groovy/IPhoneTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="0" selection-start="1516" selection-end="1573" vertical-scroll-proportion="0.56633383">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junit4/junit4/ipod/IpodTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="1020" selection-end="1117" vertical-scroll-proportion="0.58950615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng/testng/ipod/IpodTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="273" selection-end="273" vertical-scroll-proportion="0.7623457">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng/testng/calculator/CalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="103" selection-end="103" vertical-scroll-proportion="0.22418879">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junit4/junit4/learning/StringUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="12" selection-start="0" selection-end="563" vertical-scroll-proportion="0.33628318">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng/testng/learning/StringUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="71" selection-start="216" selection-end="216" vertical-scroll-proportion="0.39233038">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
