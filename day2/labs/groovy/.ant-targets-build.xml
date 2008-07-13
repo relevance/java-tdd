@@ -1,9 +1,0 @@
-all
-clean
-compile
-init
-jar
-old-style-groovy-1.0-compile
-test.cover
-test.fn
-test.unit
