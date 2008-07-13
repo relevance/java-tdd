@@ -1,4 +1,4 @@
-Lab #3 - Mocking
+Mocking Lab
 
 Order.totalCost() and Order.print() need testing.
 Test each method using a concrete mock object.

@@ -1,4 +1,4 @@
-Lab #2 - Refactoring
+Refactoring Lab
 
 You have inheritedless-than-great Pizza and Order code, without tests. Before you 
 use any method, write tests to demonstrate that you understand how the method works.

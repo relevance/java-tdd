@@ -1,4 +1,4 @@
-Lab #1 - TDD
+TDD Lab
 
 You may use the unit testing framework of your choice for these exercises.
 

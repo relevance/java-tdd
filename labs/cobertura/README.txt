@@ -1,4 +1,4 @@
-LAB #2
+Coverage Lab
 
 1. Bring the Pizza class up to 100% code coverage
 

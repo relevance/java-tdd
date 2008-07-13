@@ -12,7 +12,7 @@ import java.io.IOException;
 
 public class OrderTest {
   @Test
-  public void testTotalCostOneItemUsingFake() {
+  public void totalCostOneItemUsingFake() {
     Order order = new Order();
     OrderItem item1 = new OrderItemFake("item 1", 50);
     order.addItem(item1);
@@ -20,7 +20,7 @@ public class OrderTest {
   }
 
   @Test
-  public void testTotalCostMultipleItemsUsingFake() {
+  public void totalCostMultipleItemsUsingFake() {
     Order order = new Order();
     OrderItem item1 = new OrderItemFake("item 1", 50);
     OrderItem item2 = new OrderItemFake("item 2", 35);
@@ -30,7 +30,7 @@ public class OrderTest {
   }
 
   @Test
-  public void testTotalCostOneItemUsingMock() {
+  public void totalCostOneItemUsingMock() {
     Order order = new Order();
     OrderItem orderItem = createMock(OrderItem.class);
     expect(orderItem.cost()).andReturn(50);
@@ -42,7 +42,7 @@ public class OrderTest {
   //TODO: separate fixture helper?
   //TODO: refactor printing to use template?
   @Test
-  public void testPrintUsingFake() throws IOException {
+  public void printUsingFake() throws IOException {
     Order order = new Order();
     OrderItem item1 = new OrderItemFake("item 1", 50);
     OrderItem item2 = new OrderItemFake("item 2", 35);
@@ -53,7 +53,7 @@ public class OrderTest {
   }
 
   @Test
-  public void testPrintUsingMock() throws IOException {
+  public void printUsingMock() throws IOException {
     Order order = new Order();
     OrderItem item1 = createMock(OrderItem.class);
     OrderItem item2 = createMock(OrderItem.class);
