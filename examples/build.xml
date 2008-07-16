@@ -190,7 +190,19 @@
           if="test.failed"/>
   </target>
 
+  <target name="jtestr" description="Runs jtestr tests">
+    <taskdef name="jtestr" classname="org.jtestr.ant.JtestRAntRunner" classpath="../lib/jtestr-0.3.jar"/>
 
+    <jtestr tests="jtestr"/>
+  </target>
+
+  <!-- using the server wasn't any faster on trivial tests?? -->
+  <target name="jtestr-server" description="Starts jtestr server">
+    <taskdef name="jtestr-server" classname="org.jtestr.ant.JtestRAntServer" classpath="../lib/jtestr-0.3.jar"/>
+
+    <jtestr-server port="20333" runtimes="3"/>
+  </target>
+  
   <!-- ====================================== -->
   <target name="test-all" depends="compile, test-unit, test-cover">
 
