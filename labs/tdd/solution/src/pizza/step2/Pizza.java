@@ -1,4 +1,4 @@
-package examples.pizza.step2;
+package pizza.step2;
 
 public class Pizza {
   private final String size;

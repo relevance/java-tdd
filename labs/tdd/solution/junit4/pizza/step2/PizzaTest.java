@@ -1,7 +1,7 @@
 package junit4.pizza.step2;
 
 import org.junit.Test;
-import examples.pizza.step2.Pizza;
+import pizza.step2.Pizza;
 import static org.junit.Assert.*;
 
 public class PizzaTest {

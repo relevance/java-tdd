@@ -1,4 +1,4 @@
-package examples.pizza.step5;
+package pizza.step7;
 
 import org.apache.commons.lang.StringUtils;
 
@@ -10,6 +10,14 @@ import java.util.HashMap;
 public class Pizza {
   private final String size;
   private List toppings;
+  private static final Map<String, Integer> basePrices;
+  static {
+    HashMap prices = new HashMap();
+    prices.put("small", 10);
+    prices.put("medium", 15);
+    prices.put("large", 20);
+    basePrices = prices;
+  }
 
   private Pizza(String size) {
     this.size = size;
@@ -39,5 +47,16 @@ public class Pizza {
   public Object getToppings() {
     return StringUtils.join(toppings, ", ");
   }
+  public int getPrice() {
+    return getBasePrice() + getToppingPrice();
+  }
 
+  private int getBasePrice() {
+    return basePrices.get(getSize());
+  }
+
+  private int getToppingPrice() {
+    return toppings.size();
+  }
+  
 }

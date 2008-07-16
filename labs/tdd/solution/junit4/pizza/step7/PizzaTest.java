@@ -2,7 +2,7 @@ package junit4.pizza.step7;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
-import examples.pizza.step7.Pizza;
+import pizza.step7.Pizza;
 
 public class PizzaTest {
   @Test
