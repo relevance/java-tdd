@@ -1,11 +1,7 @@
-package junit4.mocking;
-
 import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.easymock.EasyMock.*;
 import org.apache.commons.io.FileUtils;
-import examples.mocking.Order;
-import examples.mocking.OrderItem;
 
 import java.io.File;
 import java.io.IOException;

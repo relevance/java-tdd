@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+
+<project name="pizza" default="all" basedir=".">
+
+  <!-- Initialization variables -->
+  <property name="app.name" value="${ant.project.name}"/>
+  <property name="source.dir" value="src"/>
+  <property name="junit4.dir" value="junit4"/>
+  <property name="build.dir" value="build"/>
+  <property name="classes.dir" value="${build.dir}/classes"/>
+  <property name="lib.dir" value="../../../lib"/>
+  <property name="cobertura.dir" value="${lib.dir}/cobertura-1.9"/>
+
+  <!-- test variables -->
+  <property name="test.dir" value="${build.dir}/test"/>
+  <property name="test.data.dir" value="${test.dir}/data"/>
+  <property name="test.reports.dir" value="${test.dir}/reports"/>
+
+  <property name="unit.test.source.dir" value="${source.dir}"/>
+  <property name="unit.test.data.dir" value="${test.data.dir}/unit"/>
+  <property name="unit.test.reports.dir" value="${test.reports.dir}/unit"/>
+
+  <property name="coverage.test.data.dir" value="${test.data.dir}/coverage"/>
+  <property name="coverage.test.reports.dir"
+            value="${test.reports.dir}/coverage"/>
+  <property name="coverage.test.instrumented.dir"
+            value="${test.dir}/instrumented"/>
+
+
+  <path id="compile.classpath">
+    <fileset dir="${lib.dir}">
+      <include name="**/*.jar"/>
+    </fileset>
+  </path>
+
+
+  <!-- ============================= -->
+  <target name="all" depends="clean,compile,test-unit"
+          description="Does the whole enchilada"/>
+
+  <!-- ====================================== -->
+  <target name="clean" description="Deletes compiled and generated code">
+    <delete dir="${build.dir}"/>
+  </target>
+
+  <target name="init">
+    <mkdir dir="${test.dir}"/>
+    <mkdir dir="${test.data.dir}"/>
+    <mkdir dir="${test.reports.dir}"/>
+
+    <mkdir dir="${unit.test.data.dir}"/>
+    <mkdir dir="${unit.test.reports.dir}"/>
+
+    <mkdir dir="${coverage.test.data.dir}"/>
+    <mkdir dir="${coverage.test.reports.dir}"/>
+  </target>
+  
+  <!-- ====================================== -->
+  <target name="compile" description="Compiles the Java code">
+    <mkdir dir="${build.dir}"/>
+    <mkdir dir="${classes.dir}"/>
+
+
+    <javac srcdir="${source.dir}"
+           destdir="${classes.dir}"
+           debug="true">
+      <classpath>
+        <path refid="compile.classpath"/>
+        <pathelement location="${classes.dir}"/>
+      </classpath>
+    </javac>
+
+    <javac srcdir="${junit4.dir}"
+           destdir="${classes.dir}"
+           debug="true">
+      <classpath>
+        <path refid="compile.classpath"/>
+        <pathelement location="${classes.dir}"/>
+      </classpath>
+    </javac>
+
+    <copy todir="${classes.dir}">
+      <fileset dir="${source.dir}">
+        <include name="**/*.properties"/>
+        <include name="**/*.xml"/>
+      </fileset>
+    </copy>
+
+  </target>
+
+  <target name="test-unit" depends="init,compile" description="Runs unit tests">
+
+    <junit printsummary="false" errorProperty="test.failed"
+           failureProperty="test.failed">
+      <classpath>
+        <path refid="compile.classpath"/>
+        <pathelement location="${classes.dir}"/>
+      </classpath>
+      <formatter type="brief" usefile="false"/>
+      <formatter type="xml"/>
+      <batchtest todir="${unit.test.data.dir}">
+        <fileset dir="${classes.dir}" includes="**/*Test.class"/>
+      </batchtest>
+    </junit>
+
+    <junitreport todir="${unit.test.data.dir}">
+      <fileset dir="${unit.test.data.dir}">
+        <include name="TEST-*.xml"/>
+      </fileset>
+      <report format="frames" todir="${unit.test.reports.dir}"/>
+    </junitreport>
+
+    <fail message="***** Tests failed. Check reports for details."
+          if="test.failed"/>
+  </target>
+
+  <target name="test-cover" depends="init,compile"
+          description="Runs coverage tests">
+
+    <path id="cobertura.classpath">
+      <fileset dir="${cobertura.dir}">
+        <include name="cobertura.jar"/>
+        <include name="lib/**/*.jar"/>
+      </fileset>
+    </path>
+
+    <taskdef classpathref="cobertura.classpath" resource="tasks.properties"/>
+    <property name="cobertura.datafile"
+              value="${coverage.test.instrumented.dir}/cobertura.ser"/>
+
+    <delete dir="${coverage.test.instrumented.dir}"/>
+
+    <cobertura-instrument
+        datafile="${cobertura.datafile}"
+        todir="${coverage.test.instrumented.dir}">
+      <ignore regex="org.apache.log4j.*"/>
+      <fileset dir="${classes.dir}">
+        <include name="**/*.class"/>
+        <exclude name="**/*Test.class"/>
+        <exclude name="**/*TestFn.class"/>
+      </fileset>
+    </cobertura-instrument>
+
+
+    <!-- note: your instrumented classes must come first -->
+    <junit fork="yes" printsummary="false" errorProperty="test.failed"
+           failureProperty="test.failed">
+      <sysproperty key="net.sourceforge.cobertura.datafile"
+                   file="${cobertura.datafile}"/>
+
+      <classpath>
+        <pathelement location="${coverage.test.instrumented.dir}"/>
+        <pathelement location="${classes.dir}"/>
+        <path refid="compile.classpath"/>
+        <path refid="cobertura.classpath"/>
+      </classpath>
+      <classpath location="${classes.dir}"/>
+      <classpath refid="compile.classpath"/>
+      <formatter type="brief" usefile="false"/>
+      <formatter type="xml"/>
+      <batchtest todir="${unit.test.data.dir}">
+        <fileset dir="${classes.dir}" includes="**/*Test.class"/>
+      </batchtest>
+    </junit>
+
+    <!-- junit html reports -->
+    <junitreport todir="${unit.test.data.dir}">
+      <fileset dir="${unit.test.data.dir}">
+        <include name="TEST-*.xml"/>
+      </fileset>
+      <report format="frames" todir="${unit.test.reports.dir}"/>
+    </junitreport>
+
+    <!-- cobertura html reports -->
+    <cobertura-report
+        datafile="${cobertura.datafile}"
+        destdir="${coverage.test.reports.dir}">
+      <fileset dir="${source.dir}">
+        <include name="**/*.java"/>
+      </fileset>
+    </cobertura-report>
+
+    <!-- cobertura xml reports -->
+    <cobertura-report
+        datafile="${cobertura.datafile}"
+        srcdir="${source.dir}" destdir="${coverage.test.data.dir}"
+        format="xml"/>
+
+    <fail message="***** Tests failed. Check reports for details."
+          if="test.failed"/>
+  </target>
+
+
+  <!-- ====================================== -->
+  <target name="test-all" depends="compile, test-unit, test-cover">
+
+  </target>
+
+</project>

@@ -1,7 +1,3 @@
-package junit4.mocking;
-
-import examples.mocking.OrderItem;
-
 public class OrderItemFake implements OrderItem {
   private final int cost;
   private final String display;
