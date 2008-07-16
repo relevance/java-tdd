@@ -8,7 +8,7 @@
   <property name="junit4.dir" value="junit4"/>
   <property name="build.dir" value="build"/>
   <property name="classes.dir" value="${build.dir}/classes"/>
-  <property name="lib.dir" value="../../lib"/>
+  <property name="lib.dir" value="../../../lib"/>
   <property name="cobertura.dir" value="${lib.dir}/cobertura-1.9"/>
 
   <!-- test variables -->
