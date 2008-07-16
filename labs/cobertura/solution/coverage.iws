@@ -80,7 +80,7 @@
       <file leaf-file-name="OrderTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/junit4/junit4/cobertura/OrderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="0.18138425">
+            <state line="9" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="0.12458472">
               <folding />
             </state>
           </provider>
@@ -89,7 +89,7 @@
       <file leaf-file-name="PizzaTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/junit4/junit4/cobertura/PizzaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="60" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.31980908">
+            <state line="49" column="60" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.25083056">
               <folding />
             </state>
           </provider>
@@ -98,7 +98,7 @@
       <file leaf-file-name="Order.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cobertura/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="166" selection-end="166" vertical-scroll-proportion="0.18811882">
+            <state line="9" column="13" selection-start="166" selection-end="166" vertical-scroll-proportion="0.032367975">
               <folding />
             </state>
           </provider>
@@ -107,7 +107,7 @@
       <file leaf-file-name="Pizza.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cobertura/Pizza.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="99" selection-end="99" vertical-scroll-proportion="-0.9405941">
+            <state line="6" column="13" selection-start="99" selection-end="99" vertical-scroll-proportion="0.032367975">
               <folding />
             </state>
           </provider>
@@ -116,7 +116,7 @@
       <file leaf-file-name="ToppingTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/junit4/junit4/cobertura/ToppingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.18138425">
+            <state line="6" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.12624584">
               <folding />
             </state>
           </provider>
@@ -125,7 +125,7 @@
       <file leaf-file-name="Topping.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cobertura/Topping.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="204" selection-end="204" vertical-scroll-proportion="-0.17574258">
+            <state line="9" column="13" selection-start="204" selection-end="204" vertical-scroll-proportion="0.032367975">
               <folding />
             </state>
           </provider>
@@ -329,6 +329,26 @@
         <option name="Make" value="true" />
       </method>
     </tempConfiguration>
+    <configuration default="true" type="Application" factoryName="Application" enabled="false" merge="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG" enabled="false" merge="false">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -358,38 +378,6 @@
         <option name="Make" value="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application" enabled="false" merge="false">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="/Applications/IntelliJ IDEA 6.0.app/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -411,6 +399,18 @@
       <method>
         <option name="Make" value="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="/Applications/IntelliJ IDEA 6.0.app/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration default="false" name="All" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
       <module name="Coverage" />
@@ -437,8 +437,8 @@
       </method>
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.All" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PizzaTest.cookTimeWithStandardTopping" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PizzaTest.cookTimeWithStandardTopping" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.All" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -491,7 +491,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="746" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
@@ -594,44 +594,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cobertura/Order.java">
+    <entry file="file://$PROJECT_DIR$/junit4/junit4/cobertura/OrderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="166" selection-end="166" vertical-scroll-proportion="0.18811882">
+        <state line="9" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="0.12458472">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/junit4/junit4/cobertura/OrderTest.java">
+    <entry file="file://$PROJECT_DIR$/src/cobertura/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="0.18138425">
+        <state line="9" column="13" selection-start="166" selection-end="166" vertical-scroll-proportion="0.032367975">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cobertura/Pizza.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="99" selection-end="99" vertical-scroll-proportion="-0.9405941">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cobertura/Topping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="204" selection-end="204" vertical-scroll-proportion="-0.17574258">
+        <state line="6" column="13" selection-start="99" selection-end="99" vertical-scroll-proportion="0.032367975">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/junit4/junit4/cobertura/ToppingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.18138425">
+        <state line="6" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.12624584">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cobertura/Topping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="204" selection-end="204" vertical-scroll-proportion="0.032367975">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/junit4/junit4/cobertura/PizzaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="60" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.31980908">
+        <state line="49" column="60" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.25083056">
           <folding />
         </state>
       </provider>

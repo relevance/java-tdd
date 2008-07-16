@@ -1,5 +1,3 @@
-package examples.refactoring;
-
 import java.util.Iterator;
 import java.util.ArrayList;
 import java.util.List;

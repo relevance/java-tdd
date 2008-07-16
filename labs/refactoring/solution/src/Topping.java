@@ -1,5 +1,3 @@
-package examples.refactoring;
-
 import java.util.Set;
 import java.util.HashSet;
 

@@ -1,5 +1,3 @@
-package examples.refactoring;
-
 import org.apache.commons.lang.StringUtils;
 
 import java.util.*;

@@ -1,9 +1,5 @@
-package junit4.refactoring;
-
 import org.junit.Test;
 import static org.junit.Assert.*;
-import examples.refactoring.Order;
-import examples.refactoring.Pizza;
 
 import java.math.BigDecimal;
 
