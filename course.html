@@ -1,116 +1,261 @@
-<html>
-<head>
-<style>
-h2 {
-  border-top-style: solid;
-  padding-top: 0.5em; 
-}
-</style>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Test-Driven Development</title>
+    
+    <link rel="stylesheet" href="./stylesheets/screen.css" type="text/css" media="screen" title="thinkrelevance screen style" charset="utf-8" />
+    <script src="./javascripts/prototype.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./javascripts/application.js" type="text/javascript" charset="utf-8"></script>
+    <!--[if lt IE 7]>
+
+        <script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE7.js" type="text/javascript"></script>
+        <![endif]-->
 
 </head>
-<body>
 
-<h1>TDD in two days</h1>
+<body class="interior sidebar">
 
-<h2>Why Test?</h2>
+  <div id="container" >
+    
+    <div id="header" class="container">
+      
+      <div id="header-primary">
+        <h3><a href="http://thinkrelevance.com" class="logo">Relevance, Inc.</a></h3>
+	
+      </div>
 
-<h2>XUnit Frameworks</h2>
+      <div id="navigation">
+        <ul>
 
-<h3>Reading</h3>
+	  <!--                                         <li class="consulting"><a href="http://thinkrelevance.com/consulting">Consulting</a></li> -->
+	  <!--                                         <li class="clients"><a href="http://thinkrelevance.com/clients">Clients</a></li> -->
+	  <!--                                         <li class="approach"><a href="http://thinkrelevance.com/approach">Approach</a></li> -->
+	  <!--                                         <li class="opensource"><a href="http://thinkrelevance.com/open-source">Open Source</a></li> -->
+	  <!--                                         <li class="books"><a href="http://thinkrelevance.com/books">Books</a></li> -->
+	  <!--                                         <li class="training"><a href="http://thinkrelevance.com/training">Training</a></li> -->
+	  
+	  <!--                                         <li class="about"><a href="http://thinkrelevance.com/about">About</a></li> -->
+	  <!--                                         <li class="jobs"><a href="http://thinkrelevance.com/jobs">Jobs</a></li> -->
+	  <!--                                         <li class="blog"><a href="http://blog.thinkrelevance.com">Blog</a></li> -->
+        </ul>
+      </div>
+      
+    </div>
 
-<ul>
-<li><a href="downloads/junit4.4/doc/cookbook/cookbook.htm">JUnit Cookbook</a>: quick start for JUnit 4</li>
-<li><a href="downloads/junit4.4/doc/testinfected/testing.htm">JUnit Test Infected</a>: quick start for JUnit 3</li>
-</ul>
+    <div id="page-container" class="container">
+      <div id="page">
 
-<h3>Examples</h3>
+  <div class="header container">
 
-<ul>
-<li>Using <a href="examples/junit4/junit4/learning/StringUtilsTest.java">tests</a> to explore third party code</li>
-</ul>
+    <div class="all why">
+      <h2>Why Test?</h2>
 
-<h3>Labs:</h3>
+      <h3>Reading</h3>
+      <ul>
+	<li>A bunch of people. <a href="http://agilemanifesto.org/">Manifesto for Agile Softare Development</a>. The manifesto doesn't have the word "test", but try to live by it and you will find yourself testing.  </li>
+	<li>Ford, Neal. <a href="http://memeagora.blogspot.com/2007/11/building-bridges-without-engineering.html">Building Bridges without Engineering</a>. Testing is the engineering rigor of software development.</li>
+      </ul>
+    </div>
 
-<ul>
-<li><a href="labs/tdd">TDD</a>: TDD for Pizza shop</li>
-</ul>
+    <div class="all tdd">
+      <h2>TDD with XUnit Frameworks</h2>
 
-<h3>Solutions:</h3>
+      <h3>Reading</h3>
 
-<ul>
-<li><a href="labs/tdd/solution">Solution project</a></li>
-</ul>
+      <ul>
+	<li><a href="downloads/junit4.4/doc/cookbook/cookbook.htm">JUnit Cookbook</a>: quick start for JUnit 4</li>
+	<li><a href="downloads/junit4.4/doc/testinfected/testing.htm">JUnit Test Infected</a>: quick start for JUnit 3</li>
+      </ul>
 
-<h2>BDD</h2>
+      <h3>Examples</h3>
 
-<h3>Examples</h3>
+      <ul>
+	<li>Using <a href="examples/junit4/junit4/learning/StringUtilsTest.java">tests</a> to explore third party code</li>
+      </ul>
 
-<ul>
-<li><a href="examples/easyb/easyb/LargestStory.groovy">LargestStory</a>: easyb story for Largest.java</li>
-<li><a href="examples/jtestr/largest_spec.rb">LargestSpec</a>: RSpec spec for Largest.java</li>
-</ul>
+      <h3>Labs:</h3>
+      
+      <ul>
+	<li><a href="labs/tdd">TDD</a>: TDD for Pizza shop</li>
+      </ul>
 
-<h2>Coverage</h2>
+      <h3>Solutions:</h3>
 
-<h3>Examples</h3>
+      <ul>
+	<li><a href="labs/tdd/solution">Solution project</a></li>
+      </ul>
+    </div>
 
-<ul>
-<li>Anything that isn't covered!</li>
-<li><a href="examples/build.xml">Build script</a>: Cobertura tasks</li>
-</ul>
+    <div class="all bdd">
+      <h2>BDD</h2>
 
-<h3>Labs</h3>
+      <h3>Reading</h3>
+      <ul>
+	<li>North, Dan <a href="http://dannorth.net/introducing-bdd">Introducing BDD</a>. Words matter, and the difference between "behavior" and "test" is important. BDD evolved from TDD, but it has become something quite different, and can drive the way you think about software.</li>
+      </ul>
 
-<ul>
-<li><a href="labs/cobertura">Cobertura</a>: Coverage lab</li>
-</ul>
+      <h3>Examples</h3>
 
-<h3>Solutions</h3>
+      <ul>
+	<li><a href="examples/easyb/easyb/LargestStory.groovy">LargestStory</a>: easyb story for Largest.java</li>
+	<li><a href="examples/jtestr/largest_spec.rb">LargestSpec</a>: RSpec spec for Largest.java</li>
+      </ul>
+    </div>
 
-<ul>
-<li><a href="labs/cobertura/solution">Solution project</a></li>
-</ul>
+    <div class="all coverage">
+      <a name="coverage"><h2>Coverage</h2></a>
 
-<h2>Refactoring</h2>
+      <h3>Reading</h3>
+      <ul>
+	<li>Rudolph, Jason. <a href="http://jasonrudolph.com/blog/2008/06/10/a-brief-discussion-of-code-coverage-types/">A Brief Discussion of Code Coverage Types</a>. Understand the different types of code coverage, and how you can use them <em>in conjunction with</em> other techniques to improve your tests.</li>
+      </ul>
+      
+      <h3>Examples</h3>
+      
+      <ul>
+	<li>Anything that isn't covered!</li>
+	<li><a href="examples/build.xml">Build script</a>: Cobertura tasks</li>
+      </ul>
+      
+      <h3>Labs</h3>
+      
+      <ul>
+	<li><a href="labs/cobertura">Cobertura</a>: Coverage lab</li>
+      </ul>
+      
+      <h3>Solutions</h3>
+      
+      <ul>
+	<li><a href="labs/cobertura/solution">Solution project</a></li>
+      </ul>
+    </div>
+    <div class="all refactoring">  
+      <h2>Refactoring</h2>
+      
+      <h3>Examples</h3>
 
-<h3>Examples</h3>
+      <ul>
+	<li><a href="examples/src/examples/ipod/before/Ipod.java">Ipod</a>: before refactoring</li>
+	<li><a href="examples/src/examples/ipod/before/Ipod.java">Ipod</a>: after refactoring</li>
+	<li><a href="examples/junit4/junit4/ipod/IpodTest.java">JUnit4</a>: tests</li>
+      </ul>
+      
+      <h3>Labs</h3>
+      
+      <ul>
+	<li><a href="labs/refactoring">Refactoring</a>: Refactoring the Pizza and Order classes</li>
+      </ul>
+      
+      <h3>Solutions</h3>
+      
+      <ul>
+	<li><a href="labs/refactoring/solution">Solution project</a></li>
+      </ul>
+    </div>
+    
+    <div class="all mocking">
+      <h2>Mocking</h2>
 
-<ul>
-<li><a href="examples/src/examples/ipod/before/Ipod.java">Ipod</a>: before refactoring</li>
-<li><a href="examples/src/examples/ipod/before/Ipod.java">Ipod</a>: after refactoring</li>
-<li><a href="examples/junit4/junit4/ipod/IpodTest.java">JUnit4</a>: tests</li>
-</ul>
+      <h3>Reading</h3>
+      <ul>
+	<li>Fowler, Martin. <a href="http://martinfowler.com/articles/mocksArentStubs.html">Mocks Aren't Stubs</a>. Mocks are part of a larger family of test objects, that can be used to support testing both state and behavior.</li>
+      </ul>
+      
+      <h3>Examples</h3>
+      
+      <ul>
+	<li><a href="examples/src/examples/space">Space</a>: SpaceStation simulation</li>
+	<li><a href="examples/junit3/junit3/space">Tests</a>: Tests</li>
+      </ul>
+      
+      <h3>Labs</h3>
+      
+      <ul>
+	<li><a href="labs/mocking">Mocking</a>: Mocking OrderItem</li>
+      </ul>
+      
+      <h3>Solutions</h3>
+      
+      <ul>
+	<li><a href="labs/mocking/solution">Solution project</a></li>
+      </ul>
+    </body>
+  </div>
 
-<h3>Labs</h3>
+  <div class="all refactotum">
+    <h2>Refactotum</h2>
 
-<ul>
-<li><a href="labs/refactoring">Refactoring</a>: Refactoring the Pizza and Order classes</li>
-</ul>
+    <h3>Reading</h3>
+    <ul>
+      <li>Fields, Jay <a href="http://blog.jayfields.com/2008/06/developer-testing-and-importance-of.html">Developer Testing and the Importance of Context</a>. Links to about a dozen articles that Jay has written about testing. Read each, and consider how/whether they would apply on your project.</li>
+      <li>Rudolph, Jason. <a href="http://jasonrudolph.com/blog/2008/06/17/testing-anti-patterns-incidental-coverage/">Testing Anti-Patterns: Incidental Coverage</a>. Code coverage can go wrong: lines of code are encountered, but not tested in any meaningful way.</li>
+      <li>Rudolph, Jason. <a href="http://jasonrudolph.com/blog/2008/07/01/testing-anti-patterns-overspecification/">Testing Anti-Patterns: Overspecification</a>. You can have too much testing. If tests specify details irrelevant to the real purpose of the code, they make it unnecessarily difficult to refactor the code in the future.</li>
+      <li>Rudolph, Jason. <a href="http://jasonrudolph.com/blog/2008/07/08/testing-anti-patterns-underspecification/">Testing Anti-Patterns: Underspecification</a>. Tests often do too little, and cover only part of the behavior. It is impossible to test every case, but it is critical that you develop a sense for testing boundary cases.</li>
+    </ul>
+  </div>
 
-<h3>Solutions</h3>
+  <div class="all additional">
 
-<ul>
-<li><a href="labs/refactoring/solution">Solution project</a></li>
-</ul>
+    <h2>Additional Reading</h2>
+    <ul>
+      <li>Almiray, Andres <a href="http://groovy.dzone.com/news/follow-writing-unit-tests-usin">Follow up on Writing unit tests using Groovy</a>. Continuing where Malmsten left off, shows how to use builders to create test data.</li>
+      <li>Beust, Cedric. <a href="http://beust.com/weblog/archives/000077.html">Don't Call Super</a>. It can be difficult to reuse code across JUnit test cases. Inheritance more than one-deep from TestCase is fragile and error-prone.</li>
+      <li>Beust, Cedric. <a href="http://www.beust.com/weblog/archives/000170.html">Using annotation inheritance for testing</a>. You might want to explicitly state dependencies between tests, and how to do it in TestNG.</li>
+      <li>Jeffries, Ron. <a href="http://www.xprogramming.com/software.htm">(Software Download Page)</a>. Descriptions and download links for testing tools in a variety of languages.</li>
+      <li>Malmsten, Thomas <a href="http://groovy.dzone.com/news/writing-unit-tests-using-groov">Writing unit tests using Groovy</a>. Groovy is a much easier language to work in than Java.</li>
+    </ul>
+  </div>
 
-<h2>Mocking</h2>
+                          
+  <div class="body"></div>
 
-<h3>Examples</h3>
+  <div class="footer">
+  </div>
+  
+      </div>
 
-<ul>
-<li><a href="examples/src/examples/space">Space</a>: SpaceStation simulation</li>
-<li><a href="examples/junit3/junit3/space">Tests</a>: Tests</li>
-</ul>
 
-<h3>Labs</h3>
 
-<ul>
-<li><a href="labs/mocking">Mocking</a>: Mocking OrderItem</li>
-</ul>
 
-<h3>Solutions</h3>
 
-<ul>
-<li><a href="labs/mocking/solution">Solution project</a></li>
-</ul>
+
+
+      
+    </div>
+
+    <div id="sidebar">
+      
+      <div class="content">
+
+        <h2>Test-Driven Development</h2>
+        <ul>
+          <li id="choose_all">Whole Course</li>
+          <li id="choose_why">Why Test?</li>
+          <li id="choose_tdd">Test-Driven Development</li>
+          <li id="choose_bdd">Behavior-Driven Development</li>
+          <li id="choose_coverage">Code Coverage</li>
+          <li id="choose_refactoring">Refactoring</li>
+          <li id="choose_mocking">Mocking</li>
+          <li id="choose_refactotum">Refactotum</li>
+          <li id="choose_additional">Additional Resources</li>
+        </ul>
+      </div>
+
+      <div class="footer">&nbsp;</div>
+    </div>
+    
+  </div>
+  <div class="spacer">&nbsp;</div>
+  
+</div>
+
+<div id="footer">
+  
+
+</div>
 </body>
+</html>
+

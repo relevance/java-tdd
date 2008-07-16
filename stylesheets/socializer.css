@@ -1,0 +1,88 @@
+@charset "utf-8";
+.socializer {
+	cursor: pointer;
+}
+.soc_container {
+	/* font-family:Arial, Helvetica, sans-serif; */
+	font-size:12px;
+	width: 400px;
+	auto;
+	border: 1px solid #EFEFEF;
+	position:absolute;
+	z-index: 90;
+	background:#FFF url(/images/site/bg_container2.jpg) repeat-x bottom;
+	visibility:hidden;
+	font-size:12px;
+	line-height:18px;
+}
+
+.soc_container h1{
+	
+	margin:10px 0 10px 20px;
+	font-size:14px;
+}
+
+.soc_container h2{
+	margin: 10px 0 10px 20px;
+	font-size:14px;
+}
+
+.soc_container a{
+	color: #aadd00;
+	text-decoration:none;
+}
+
+.soc_left{
+	width: 180px;
+	padding:10px;
+	float:left;
+	visibility:hidden;
+}
+
+.soc_left img{
+	width: 18px;
+	height: 18px;
+	float:left;
+	margin: 0 10px 0 0;
+}
+.soc_left a{
+	color:#3E3F3E;
+	text-decoration:none;
+	line-height:18px;
+	
+
+	border-bottom:1px dotted #CECECE;
+	display:block;
+}
+.soc_left a:hover{
+	color:#6699FF;
+	background-color:#E6F0C1;
+}
+#close{
+	width:10px;
+	height:10px;
+	float:right;
+	clear:both;
+}
+.open_window{
+	width:780px;
+	height:500px;
+	background-color:#000;
+
+
+}
+.close{
+	width:10px;
+	height:10px;
+	float:right;
+	clear:both;
+}
+.soc_send_friend{
+	clear:both;
+	padding:20px;
+}
+.wait{
+background-image:url("/images/site/icons/ajaxloader.gif");
+background-repeat:no-repeat;
+background-position: center center;
+}
