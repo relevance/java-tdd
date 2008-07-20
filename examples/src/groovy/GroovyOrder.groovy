@@ -1,6 +1,6 @@
 package groovy;
 
-import examples.mocking.OrderItem;
+import groovy.OrderItem;
 
 public class GroovyOrder {
   def orderItems = []

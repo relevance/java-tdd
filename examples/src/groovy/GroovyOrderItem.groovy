@@ -1,6 +1,6 @@
 package groovy
 
-import examples.mocking.OrderItem
+import groovy.OrderItem
 
 class GroovyOrderItem implements OrderItem {
   int cost

@@ -1,7 +1,7 @@
 package groovy.mocking
 
 import groovy.GroovyOrderItem
-import examples.mocking.OrderItem
+import groovy.OrderItem
 
 class GroovyOrderItemTest extends GroovyTestCase {
   def testEmptyOrderItem() {
