@@ -1,4 +1,6 @@
 require 'fileutils'
+
+FileUtils.cd File.join(File.dirname(__FILE__), "..")
 FileUtils.mkdir_p "downloads"
 FileUtils.cd "downloads"
 
