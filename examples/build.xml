@@ -11,6 +11,7 @@
   <property name="lib.dir" value="../lib"/>
   <property name="cobertura.dir" value="${lib.dir}/cobertura-1.9"/>
 
+
   <!-- test variables -->
   <property name="test.dir" value="${build.dir}/test"/>
   <property name="test.data.dir" value="${test.dir}/data"/>
@@ -33,6 +34,25 @@
     </fileset>
   </path>
 
+  <taskdef name="easyb" classname="org.disco.easyb.ant.BehaviorRunnerTask">
+    <classpath>
+      <pathelement location="${lib.dir}/groovy-1.5.4.jar"/>
+      <pathelement location="${lib.dir}/easyb-0.9.jar"/>
+    </classpath>
+  </taskdef>
+
+  <target name="easyb" depends="init,compile" description="Runs easyb stories">
+    <easyb>
+      <classpath>
+         <path refid="compile.classpath" />
+         <pathelement path="${classes.dir}" />
+      </classpath>
+     <report location="build/test/reports/easyb/story.txt" format="txtstory" />
+     <behaviors dir="easyb">
+       <include name="**/*Story.groovy"/>
+     </behaviors>
+    </easyb>
+  </target>
 
   <!-- ============================= -->
   <target name="all" depends="clean,compile,test-unit"
@@ -53,6 +73,8 @@
 
     <mkdir dir="${coverage.test.data.dir}"/>
     <mkdir dir="${coverage.test.reports.dir}"/>
+
+    <mkdir dir="build/test/reports/easyb"/>
   </target>
   
   <!-- ====================================== -->
