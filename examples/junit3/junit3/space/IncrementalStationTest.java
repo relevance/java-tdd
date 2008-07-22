@@ -4,6 +4,7 @@ import static org.easymock.EasyMock.*;
 import junit.framework.TestCase;
 import examples.space.IncrementalStation;
 import examples.space.CarefulRocket;
+import examples.space.Station;
 
 public class IncrementalStationTest extends TestCase {
   public void testRefuelAbortsIfDockFails() {
@@ -35,11 +36,15 @@ public class IncrementalStationTest extends TestCase {
     IncrementalStation station = new IncrementalStation();
     CarefulRocket rocket = createStrictMock(CarefulRocket.class);
     expect(rocket.dock()).andReturn(true);
-    expect(rocket.addFuel(50)).andReturn(10).times(5);
+    expect(rocket.addFuel(anyInt())).andReturn(10).times(5);
     rocket.undock();
     replay(rocket);
     station.refuel(rocket, 50);
     verify(rocket);
+  }
+
+  public void testMockConcrete() {
+    Station station = createMock(Station.class);
   }
   
 }

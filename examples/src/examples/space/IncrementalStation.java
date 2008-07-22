@@ -9,7 +9,7 @@ public class IncrementalStation {
     }
     int completed = 0;
     while (completed < amount) {
-      completed += rocket.addFuel(amount);
+      completed += rocket.addFuel(amount-completed);
     }
     rocket.undock();
   }

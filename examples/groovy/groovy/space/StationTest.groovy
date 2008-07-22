@@ -16,7 +16,7 @@ class StationTest extends GroovyTestCase {
   public void testRefuelUsesTheHose() {
     def station = new Station()
     station.fuel = 1000
-    def rocket = createNiceMock(Rocket.class)
+    def rocket = createNiceMock(Rocket)
     rocket.attachFuelHose()
     rocket.detachFuelHose()
     replay rocket 
@@ -27,7 +27,7 @@ class StationTest extends GroovyTestCase {
   public void testRefuelDoesThingsInTheCorrectOrder() {
     def station = new Station();
     station.fuel = 1000
-    def rocket = createStrictMock(Rocket.class)
+    def rocket = createStrictMock(Rocket)
     rocket.dock()
     rocket.attachFuelHose()
     rocket.addFuel 50
